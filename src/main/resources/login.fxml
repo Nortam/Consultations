@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="232.0" prefWidth="229.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LoginForm">
+   <children>
+      <TextField fx:id="loginField" layoutX="59.0" layoutY="115.0" prefHeight="25.0" prefWidth="135.0" promptText="Login" text="admin" />
+      <PasswordField fx:id="passwordField" layoutX="59.0" layoutY="153.0" prefHeight="25.0" prefWidth="135.0" promptText="Password" text="!admin1+" />
+      <Button fx:id="loginButton" layoutX="59.0" layoutY="193.0" mnemonicParsing="false" onAction="#onClickLoginButton" prefHeight="25.0" prefWidth="135.0" text="Log In" />
+      <ImageView fitHeight="15.0" fitWidth="15.0" layoutX="36.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="pictures/user.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="15.0" fitWidth="15.0" layoutX="36.0" layoutY="158.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="pictures/lock.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="75.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="80.0">
+         <image>
+            <Image url="pictures/user-big.png" />
+         </image>
+      </ImageView>
+      <ProgressIndicator fx:id="progressIndicator" layoutX="37.0" layoutY="198.0" prefHeight="15.0" prefWidth="15.0" visible="false" />
+      <Circle fx:id="networkIndicator" fill="#2cb29a" layoutX="213.0" layoutY="15.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0" />
+   </children>
+</AnchorPane>
