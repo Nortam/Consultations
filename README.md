@@ -6,5 +6,5 @@ Cross-platform application for forming a weekly table of available consultations
 </p>
 
 <p align="center">
-  <img src="https://github.com/Nortam/Consultations/blob/master/Screenshots/05_Report.png" width="300" title="Report generation"/>
+  <img src="https://github.com/Nortam/Consultations/blob/master/Screenshots/05_Report.png" width="270" title="Report generation"/>
 </p>
